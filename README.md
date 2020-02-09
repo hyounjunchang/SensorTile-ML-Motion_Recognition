@@ -27,7 +27,7 @@ The ML model is not able to detect a difference between a variety of motions due
 
 The interface to setup the motion detection is not intuitive either due to the sensortile's lack of LCD screen.
 
-The Matrix used for ML only uses 3 elements (opposed to 6 inputs we extract from the 2 features). Due to the time constraint of the project, no modifications were done to the ML model. Adjusting the ML model to take more inputs (in the input matrix) would most likey fix the shortcomings.
+The Matrix used for ML only uses 3 elements (opposed to 6 inputs we extract from the 2 features, due to lack of processing power). Due to the time constraint of the project, no modifications were done to the ML model. Adjusting the ML model to take couple more inputs (in the input matrix) would most likey fix the shortcomings, at the cost of longer training time (and the trade-off should be considered before modifying the input-matrix itself).
 
 Despite these shortcomings, we still found this project a nice introduction to ML and microcontroller programming!
 
